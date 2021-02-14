@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --navbar-height: 59px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#navbar ul{
+    display: flex;
+
+
+}
+#navbar ul li{
+ list-style-type: none;
+ font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+ 
+}
+#navbar ul li a:hover{
+   
+    color:black;
+    background-color: white;
+ 
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.10;
+
+
+}
+body{
+    background: url(/tati.jpg)no-repeat center center fixed;
+    position:absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#header{
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2cm;
+   color: white;
+   
+}
+#sep{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+   color: white;
+   
+}
+#d1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 146px;
+    font-size: 1cm;
+  
+    color: white;
+    
+   
+    
+}
+#dm1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    font-size: 0.5cm;
+  padding-left: 8cm;
+    color: yellow;
+    
+}

@@ -1,0 +1,6 @@
+#navbar{
+    flex-direction: column;
+}
+*{
+    overflow: none;
+}
